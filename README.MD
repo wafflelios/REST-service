@@ -30,7 +30,7 @@
 авторизирует компания, владеющая данным сервисом. После регистрации она выдает сотруднику логин и пароль для просмотра 
 личной информации. 
 
-В файле extended_database.xlsx можно ознакомиться с информацией, которая размещена в PostgreSQL. Важно, что колонка 
+В файле [extended_database.xlsx](https://github.com/wafflelios/REST-service/blob/main/extended_database.xlsx) можно ознакомиться с информацией, которая размещена в PostgreSQL. Важно, что колонка 
 password отсутсвует в PostgreSQL. Сделано это для того, чтобы исбежать кражи паролей пользоватей при доступе 
 злоумышленников к базе данных. 
 
@@ -87,7 +87,7 @@ uvicorn, или http://localhost:9999/docs, если запускали чере
 
 ![](https://i.imgur.com/60keTGF.png)
 
-Откроем extended_database.xlsx и попробуем получить токен для первого работника из базы данных.
+Откроем [extended_database.xlsx](https://github.com/wafflelios/REST-service/blob/main/extended_database.xlsx) и попробуем получить токен для первого работника из базы данных.
 
 ![](https://i.imgur.com/EyUJxma.png)
 
