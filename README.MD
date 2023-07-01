@@ -46,7 +46,7 @@ password отсутсвует в PostgreSQL. Сделано это для тог
 
 ### Запуск сервиса через uvicorn
 1. Скачайте все файлы проекта;
-2. Извлеките данные из db.zip в папку с проектом;
+2. Извлеките данные из [db.zip](https://github.com/wafflelios/REST-service/blob/main/db.zip) в папку с проектом;
 3. Откройте папку с проектом в терминале, создайте и активируйте виртуальное окружение с помощью команды:
 ```
 python3 -m venv venv
@@ -68,8 +68,8 @@ uvicorn main:app --reload
 ```
 
 ### Запуск сервиса с помощью Docker Compose и DockerHub
-1. Из данного репозитория скачайте папку run_by_docker и файл db.zip;
-2. Извлеките данные из db.zip в папку run_by_docker;
+1. Из данного репозитория скачайте папку [run_by_docker](https://github.com/wafflelios/REST-service/tree/main/run_by_docker) и файл [db.zip](https://github.com/wafflelios/REST-service/blob/main/db.zip);
+2. Извлеките данные из [db.zip](https://github.com/wafflelios/REST-service/blob/main/db.zip) в папку [run_by_docker](https://github.com/wafflelios/REST-service/tree/main/run_by_docker);
 3. Откройте терминал в данной директории и скачайте образ сервиса из DockerHub с помощью команды:
 ```
 docker pull wafflelios/rest-service
@@ -82,8 +82,8 @@ docker compose up
 
 ### Как пользоваться сервисом?
 Откройте браузер и в адресной строке перейдите по адресу http://localhost:8000/docs, если вы запускали сервис через 
-uvicorn, или http://localhost:9999/docs, если запускали через Docker. Добро пожаловать в интерактивную документацию
-FastAPI, в которой можно повзаимодействовать с сервисом.
+uvicorn, или http://localhost:9999/docs, если запускали через Docker. <br> 
+Добро пожаловать в интерактивную документацию FastAPI, в которой можно повзаимодействовать с сервисом.
 
 ![](https://i.imgur.com/60keTGF.png)
 
